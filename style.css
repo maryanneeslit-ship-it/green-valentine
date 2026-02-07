@@ -1,0 +1,46 @@
+body {
+  background-color: #ffd6e8; /* pastel pink */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ff4da6;
+}
+
+p {
+  font-size: 24px;
+  color: #ff66b3;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px 35px;
+  margin: 10px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff99cc;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff66b3;
+}
+
+.kiss {
+  position: absolute;
+  font-size: 40px;
+  animation: rise 1.5s ease-out forwards;
+}
+
+@keyframes rise {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-100px) scale(1.5); opacity: 0; }
+}
